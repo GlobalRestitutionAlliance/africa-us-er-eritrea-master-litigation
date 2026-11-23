@@ -1,0 +1,18 @@
+{
+  "url": "https://www.loc.gov/item/?q=eritrea+italian+colonial",
+  "final_url": "https://www.loc.gov/item/?q=eritrea+italian+colonial",
+  "title": "Library of Congress - Eritrea",
+  "fetched_at": "2026-11-23T02:12:34.736731Z",
+  "http_status": "unknown_browser_outerhtml_capture",
+  "content_type": "text/html; browser-rendered-outerHTML",
+  "bytes": 60000,
+  "sha256": "8df3914b8366c2adcf28eb57b4de1f41a449a136a1652d9c0166f0d9f5aef551",
+  "provenance": "browser-rendered-outerHTML",
+  "custodian": "OpenCode/browser-fallback",
+  "capture_access": "PUBLIC_CAPTURE_UNAUTHENTICATED",
+  "legal_review_status": "PENDING_LEGAL_REVIEW",
+  "note": "Captured via browser fallback; not authenticated; pending legal review.",
+  "substantive": false,
+  "quality_flag": "NOT_SUBSTANTIVE_404_PENDING_RECAPTURE",
+  "annotation_note": "Browser capture landed on LOC 404/not-found page; not substantive evidence. Pending recapture with corrected URL."
+}
