@@ -1,5 +1,24 @@
 # Citation Index
 
-Rule: NO_VERIFIED_WITHOUT_LOCAL_HASHED_ARTIFACT. All entries PENDING_LEGAL_REVIEW unless explicitly verified through local hashed artifact and human sign-off.
-
-Non-substantive captures (challenges/404/empty/landing) are flagged with `quality_flag` and `substantive=False`; they are retained for provenance but are not evidence of substantive content.
+| citation_id | url | local_artifact | sha256 | verification_status | quality_flag | substantive | annotation_note |
+|---|---|---|---|---|---|---|---|
+| CIT-0001 | https://digitallibrary.un.org/search | 03_Evidentiary_Exhibits/Immutable_Ledger/ER_01_UN_Digital_Library_-_Search.html | e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 | PENDING_LEGAL_REVIEW | EMPTY_CAPTURE_PENDING_RECAPTURE | False | Empty capture artifact (0 bytes); pending recapture. |
+| CIT-0002 | https://au.int/ | 03_Evidentiary_Exhibits/Immutable_Ledger/ER_04_African_Union.html | 72ead2dcabcc4041bc38e77cc0c851c3ef8c31eea79193cec3546c27b8ab3601 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0003 | https://www.state.gov/reports-bureau-of-democracy-human-rights-and-labor/country-reports-on-human-rights-practices/ | 03_Evidentiary_Exhibits/Immutable_Ledger/ER_05_US_State_Dept_Human_Rights_Reports.html | bf08c5f0f19a93ba0c9bcefc122c45dcfb918ecc6f2a4a90e22a4024765a7b4e | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0004 | https://history.state.gov/historicaldocuments | 03_Evidentiary_Exhibits/Immutable_Ledger/ER_06_US_State_Dept_Office_of_the_Historian_FRUS.html | c948fdff783f2e5f735777ee50bcbb0275a5f704e4309529f3aaa966605f6580 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0005 | https://www.archives.gov/research/foreign-policy | 03_Evidentiary_Exhibits/Immutable_Ledger/ER_07_NARA_Foreign_Affairs_Research.html | c4cda55cb948dfd610644cf234e08f4acedde9c212465f89697e2aae8fbf2451 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0006 | https://treaties.un.org/ | 03_Evidentiary_Exhibits/Immutable_Ledger/ER_10_UN_Treaty_Collection.html | 4fe0ad09f4867643de164cb3f3c0e59cbb40cb6b83ab6fce23aed4d84ef5e088 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0007 | https://www.icj-cij.org/cases | 03_Evidentiary_Exhibits/Immutable_Ledger/ER_11_ICJ_Cases.html | c66ffe4b81a51b59d14e73af2f122066427f895cede793d1e45df84348663107 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0008 | https://achpr.au.int/ | 03_Evidentiary_Exhibits/Immutable_Ledger/ER_12_African_Commission_on_Human_and_Peoples_Rights.html | 94ff8a442294d07a08897d60300ae6f8f07f550b9981eb6a522a40ed2fd0611e | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0009 | https://www.foia.gov/ | 03_Evidentiary_Exhibits/Immutable_Ledger/FOIA.gov.html | 33872dfb2074e59d2f25ee77e23e41fb2706c518aea89da0d3e60b25b892189f | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0010 | https://archive.org/ | 03_Evidentiary_Exhibits/Immutable_Ledger/Internet_Archive.html | 329de0d85f6904215feec653c153fdc1f7f8807e3bfaedb8c05542fcf3c2419f | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0011 | https://www.loc.gov/ | 03_Evidentiary_Exhibits/Immutable_Ledger/Library_of_Congress.html | 954e885a8a94a297bfad4f39decbc776a07bbec9253527ed3295f17931b3652b | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0012 | https://www.archives.gov/foia | 03_Evidentiary_Exhibits/Immutable_Ledger/NARA_FOIA.html | 10a153c64fe2af1e0ff231a21507c4f5d0ee75706dff0532d5dd63839c47fe66 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0013 | https://www.govinfo.gov/ | 03_Evidentiary_Exhibits/Immutable_Ledger/US_Govt_Publishing_Office.html | 2afbc7eda2fb8bd786e4fa221fcfb9740604902b8a053e61d9d36a20f20993b7 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0014 | https://www.archives.gov/ | 03_Evidentiary_Exhibits/Immutable_Ledger/US_National_Archives.html | b1be5889069b829d9a2e1f7c05017dd31c0dca382d1e3b3a18d7ef8b6bc77893 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0015 | https://en.wikisource.org/ | 03_Evidentiary_Exhibits/Immutable_Ledger/Wikisource.html | f1f02568e88c7f7327e2592f2cd8064cc67353af713a715cbfe36eaa2f0fe50a | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0016 | https://search.worldcat.org/ | 03_Evidentiary_Exhibits/Immutable_Ledger/WorldCat.html | 3e171c40aa94331b739cdfb0e4ef2c38c8761384891bee01445dc66345ac2afb | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0017 | https://babel.hathitrust.org/ | 03_Evidentiary_Exhibits/Immutable_Ledger/HathiTrust_Digital_Library_browser.html | bc7ec9faa6f7a650c519a7d4bb96bb1004ea87bc5264802bcc6ec0fa2af89034 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0018 | https://www.loc.gov/item/?q=eritrea+italian+colonial | 03_Evidentiary_Exhibits/Immutable_Ledger/Library_of_Congress_-_Eritrea_browser.html | 6ebdd4f302fc249be1a42fbad97351e6bd0b6ea380aa06b3eb7fc2458da70225 | PENDING_LEGAL_REVIEW | NOT_SUBSTANTIVE_404_PENDING_RECAPTURE | False | Browser capture landed on LOC 404/not-found page; not substantive evidence. Pending recapture with corrected URL. |
+| CIT-0019 | https://digitallibrary.un.org/ | 03_Evidentiary_Exhibits/Immutable_Ledger/UN_Digital_Library_browser.html | 82a3db0197cef4d3688c9b838e7870b5ea99b53aa150e8e9836aeb01247d47a9 | PENDING_LEGAL_REVIEW |  |  |  |
+| CIT-0020 | https://www.ohchr.org/en/countries/eritrea | 03_Evidentiary_Exhibits/Immutable_Ledger/UN_OHCHR_Eritrea_browser.html | 1031ee103138c9496b75eb81107abae3f1525dccf834e93cf4858e2c76ee7656 | PENDING_LEGAL_REVIEW |  |  |  |
